@@ -5,50 +5,90 @@
     <head>
         <title>Steven99的简历</title>
         <link rel="stylesheet" href="./a.css">
+        <script src="./iconfont.js"></script>
+        <style type="text/css">
+            .icon {
+               width: 1em; height: 1em;
+               vertical-align: -0.15em;
+               fill: currentColor;
+               overflow: hidden;
+            }
+        </style>
     </head>
-    
-    <div class="topNavbar clearfix">
-        <a href="#" class="logo" alt="logo">
-            <span class="rs">RS</span><span class="card">card</span>
-        </a>
-        <nav>
-            <ul class="clearfix">
-                <li><a href="#">关于</a></li>
-                <li><a href="#">技能</a></li>
-                <li><a href="#">作品</a></li>
-                <li><a href="#">博客</a></li>
-                <li><a href="#">联系方式</a></li>
-                <li><a href="#">其他</a></li>
-            </ul>
-        </nav>
-    </div>
-    
-    <main>
-        <img src="#" alt="头像">
-        <div class="selfdes">
-            <h1>邹鹏</h1>
-            <p>前端开发工程师</p>
-            <hr>
-            <dl>
-                <dt>年龄</dt>
-                <dd>18</dd>
-                <dt>城市</dt>
-                <dd>上海</dd>
-                <dt>邮箱</dt>
-                <dd>99@163.com</dd>
-                <dt>手机</dt>
-                <dd>19999999</dd>
-            </dl>
+
+    <div class="topNavbar  ">
+        <div class="topNavbar-inner clearfix">
+            <a href="#" class="logo" alt="logo">
+                <span class="rs">RS</span><span class="card">card</span>
+            </a>
+            <nav>
+                <ul class="clearfix">
+                    <li><a href="#">关于</a></li>
+                    <li><a href="#">技能</a></li>
+                    <li><a href="#">作品</a></li>
+                    <li><a href="#">博客</a></li>
+                    <li><a href="#">联系方式</a></li>
+                    <li><a href="#">其他</a></li>
+                </ul>
+            </nav>
         </div>
-        <footer class="media">
-            <a href="#"><img src="#" alt=".."></a>
-            <a href="#"><img src="#" alt=".."></a>
-            <a href="#"><img src="#" alt=".."></a>
-            <a href="#"><img src="#" alt=".."></a>
-            <a href="#"><img src="#" alt=".."></a>
-            <a href="#"><img src="#" alt=".."></a>
-            <a href="#"><img src="#" alt=".."></a>
-        </footer>
+    </div>
+    <div class="banner">
+        <div class="mask">
+
+        </div>
+    </div>
+    <main>
+        <div class="usercard">
+            <div class="pictureAndText clearfix">
+                <div class="picture">
+                    <img src="./img/avantar.png" width="299" height="347" alt="头像">
+                </div>
+                <div class="text">
+                    <span class="welcome">Hello<span class="triangle"></span></span>
+                    <h1>邹鹏</h1>
+                    <p>前端开发工程师</p>
+                    <hr>
+                    <dl>
+                        <dt>年龄</dt>
+                        <dd>18</dd>
+                        <dt>城市</dt>
+                        <dd>上海</dd>
+                        <dt>邮箱</dt>
+                        <dd>99@163.com</dd>
+                        <dt>手机</dt>
+                        <dd>19999999</dd>
+                    </dl>
+                </div>
+
+            </div>
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-zhihu"></use>
+            </svg>
+            <footer class="media">
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-qq"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-zhihu"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-weixin"></use>
+                    </svg>
+                </a>
+            </footer>
+        </div>
+
     </main>
 
     <a href=""></a>
@@ -74,6 +114,10 @@
             <option value="3" disabled> 3</option>
             <option value="4" selected>4</option>
         </section>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
         <textarea name="article" id="" cols="30" rows="10"></textarea>
         <table>
             <thead>
