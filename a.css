@@ -1,5 +1,5 @@
 body{
-    background: #effff;
+    background-color: #efefef;
     margin: 0;
 }
 *{
@@ -81,11 +81,11 @@ a{
     background-color: rgba(0,0,0,0.8);
 }
 .usercard{
-    border: 1px solid red;
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
 }
 .usercard .welcome{
     background: #e6686a;
@@ -158,6 +158,37 @@ a{
     width: 30px;
     fill: white;
     vertical-align: top;
+}
+body > main{
+    margin-top: -340px;
+}
+body > main .downloadResume-wrapper{
+    text-align: center;
+}
+body > main .downloadResume{
+    font-size: 14px;
+    line-height: 16px;
+    padding: 21px 55px;
+    border: 1px solid #cdcfd1;
+    display: inline-block;
+    background: #efefef;
+    border-radius: 2px;
+    color: #3d4451;
+    font-weight: bold;
+    margin: 32px 0;
+    transition: box-shadow 0.2s;
+}
+body > main .downloadResume:hover{
+    box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.2);
+}
+
+body > main .selfIntroduction{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 17px;
 }
 
 
