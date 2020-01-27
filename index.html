@@ -8,10 +8,11 @@
         <script src="./iconfont.js"></script>
         <style type="text/css">
             .icon {
-               width: 1em; height: 1em;
-               vertical-align: -0.15em;
-               fill: currentColor;
-               overflow: hidden;
+                width: 1em;
+                height: 1em;
+                vertical-align: -0.15em;
+                fill: currentColor;
+                overflow: hidden;
             }
         </style>
     </head>
@@ -97,8 +98,111 @@
         </p>
     </main>
 
+    <section class="skills">
+        <h2>技能</h2>
+        <ol class="clearfix">
+            <li>
+                <h3>
+                    HTML5 &amp; CSS3
+                </h3>
+                <div class="progressBar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+            <li>
+                <h3>
+                    javascript
+                </h3>
+                <div class="progressBar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+            <li>
+                <h3>
+                    jQuery
+                </h3>
+                <div class="progressBar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+            <li>
+                <h3>
+                    vue.js
+                </h3>
+                <div class="progressBar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+            <li>
+                <h3>
+                    react.js
+                </h3>
+                <div class="progressBar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+            <li>
+                <h3>
+                    http
+                </h3>
+                <div class="progressBar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+        </ol>
+    </section>
+    <section class="portfolio">
+        <h2>作品集</h2>
+        <nav>
+            <ol class="clearfix">
 
-    <iframe src="" frameborder="0"></iframe>
+                <li id="portfolio1">所有</li>
+                <li id="portfolio2">框架</li>
+                <li id="portfolio3">原生JS &amp; CSS</li>
+            </ol>
+            <div id="portfolioBar" class="bar state-1">
+                <div class="bar-inner"></div>
+            </div>
+        </nav>
+        <script>
+            portfolio1.onclick= function(){
+                portfolioBar.className ='bar state-1'
+            }
+            portfolio2.onclick = function(){
+                portfolioBar.className = 'bar state-2'
+            }
+            portfolio3.onclick = function(){
+                portfolioBar.className ='bar state-3'
+            }
+        </script>
+
+        <div class="works" style="height:597px">
+            <div class="big" style="top : 0; left : 0;">
+                <img src="./img/1.jpg" alt="作品1">
+            </div>
+            <div class="small" style="top : 0; left : 645px;">
+                <img src="./img/2.jpg" alt="作品2">
+            </div>
+            <div class="small"style="top : 299px; left : 645px;">
+                <img src="./img/3.jpg" alt="作品3">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <iframe src="" frameborder="0"></iframe>
 
     <a href="javascript:;"></a>
     <a target=ss href="">点击跳转</a>
@@ -136,5 +240,5 @@
             </tbody>
             <tfoot></tfoot>
         </table>
-    </form>
+    </form> -->
 </body>
