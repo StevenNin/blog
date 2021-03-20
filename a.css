@@ -298,9 +298,24 @@ section.portfolio .works >  .small{
 
 
 
-
-
-
+[data-x].active{
+    outline: 10px solid red;
+}
+[data-x].offset{
+    transform: translateY(100px);
+}
+[data-x]{
+    transform: translateY(0);
+    transition: all 0.5s;
+}
+@keyframes slideUp{
+    6%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY();
+    }
+}
 
 
 
