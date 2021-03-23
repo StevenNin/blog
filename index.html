@@ -44,18 +44,18 @@
         </style>
     </head>
 
-    <div class="topNavbar" id="topNavbar">
+    <div id="topNavbar" class="topNavbar" >
         <div class="topNavbar-inner clearfix">
             <a href="#" class="logo" alt="logo" style="float: left;">
                 <span class="rs">RS</span>
                 <span class="card">card</span>
             </a>
-            <nav>
+            <nav class = "menu" style="float: right;">
                 <ul class="clearfix">
                     <li><a href="#">关于</a></li>
                     <li><a href="#">技能</a></li>
                     <li><a href="#">作品</a>
-                        <ul class="siteWorks">
+                        <ul class="submenu">
                             <li>作品1</li>
                             <li>作品2</li>
                             <li>作品3</li>
@@ -285,7 +285,7 @@
         requestAnimationFrame(animate)
         for(let i = 0;i<aTags.length;i++){
             aTags[i].onclick = function(x){
-                x.preventDafault()
+                x.preventDefault()
                 let a  = x.currentTarget
                 let href  = a.getAttribute('href')
                 let element = document.querySelector(href)
