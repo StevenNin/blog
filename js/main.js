@@ -13,6 +13,11 @@ const swiper = new Swiper('.swiper-container', {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+    //滚动bar
+    // scrollbar: {
+    //     el: '.swiper-scrollbar',
+    //     hide: true,
+    // },
   
     // And if we need scrollbar
     // scrollbar: {
@@ -104,8 +109,6 @@ portfolio2.onclick = function(){
 portfolio3.onclick = function(){
     portfolioBar.className ='bar state-3'
 }
-
-
 
 
 
