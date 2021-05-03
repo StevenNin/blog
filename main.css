@@ -197,6 +197,7 @@ body > main .selfIntroduction{
 }
 
 section.skills,
+section.messageBox,
 section.portfolio{
     max-width: 940px;
     margin-left: auto;
@@ -204,12 +205,22 @@ section.portfolio{
     margin-top: 60px;
 }
 section.skills > h2,
+section.messageBox > h2,
 section.portfolio > h2{
     text-align: center;
     color: #3d4451;
     font-size: 45px;
     line-height: 1.2;
     font-weight: 600;
+}
+section.messageBox>ol{
+
+}
+section.messageBox > ol >li{
+    border-top: 1px #DDD solid;
+    border-bottom: 1px #ddd solid;
+    padding:  10px 5px;
+    background-color: #fff;
 }
 section.skills > ol{
     margin-top: 30px;

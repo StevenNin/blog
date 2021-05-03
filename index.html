@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.6/swiper-bundle.min.css" />
         <link rel="stylesheet" href="./main.css">
         <script src="./iconfont.js"></script>
+        <script src="./js/sakuraPlus.js"></script>
+        <!-- <script src="https://files.cnblogs.com/files/quaint/sakuraPlus.js"></script> -->
         <style type="text/css">
             .loading{width: 200px ;height:200px;position: relative;}
             
@@ -261,6 +263,30 @@
         <div class="swiper-button-next"></div>
     </section>
 
+    <section class="messageBox">
+        <h2>留言</h2>
+        <ol id="messageList">
+            <!-- <li></li> -->
+        </ol>
+        <form id="messageForm" style="width:700px;margin:50px">
+            
+            <label for="">姓名</label>
+            <input type="text" name="content">
+            <label for="">内容</label>
+            <input type="text" name="name">
+            <input type="submit" value="提交">
+        </form>
+    </section>
+
+
+    <!-- iframe 测试框 -->
+    <!-- <div style="height: 500px;margin: 30px 100px;">
+        <iframe src="https://www.baidu.com/" frameborder="" 
+        style="height:100%;width: 100%;"
+        >
+        </iframe>
+    </div> -->
+
     <!-- 新增的js功能实现 -->
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.1.1/Tween.min.js"></script>
@@ -268,7 +294,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.6/swiper-bundle.js"></script>
     <script src="./js/main.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/leancloud-storage@4.10.1/dist/av-min.js"></script>
 
+    <script src="./js/leanCloud.js"></script>
 
 
 
