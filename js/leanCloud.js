@@ -49,7 +49,7 @@ myForm.addEventListener('submit',function(e){
     'name':name
   }).then(function(object){
     let li = document.createElement('li')
-    li.innerText = `${object.item.name}:${object.item.words?object.item.words:object.item.content}`;
+    li.innerText = `${object.attributes.name}:${object.attributes.words?object.attributes.words:object.attributes.content}`;
     messageList.append(li)
     let content = myForm.querySelector('input[name=content]').value= ''
   })
