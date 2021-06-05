@@ -53,7 +53,7 @@ function findCloset() {
     let a = document.querySelector('a[href="#' + id + '"]')
     // debugger
     let li = a.parentNode
-    let = brotherAndMe = li.parentNode.children
+    let brotherAndMe = li.parentNode.children
 
     for (let i = 0; i < brotherAndMe.length; i++) {
         brotherAndMe[i].classList.remove('highlight')

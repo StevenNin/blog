@@ -3,7 +3,7 @@ window.Model = function(options){
 	return {
 		init:function(){
 			var APP_ID = '',
-			var APP_KEY = ''
+				APP_KEY = ''
 			AV.init({appId: APP_ID, appKey:APP_KEY })
 		},
 		fetch: function(){
